@@ -19,6 +19,9 @@ The data files included in the repository are as follows:
 * **LD_keys_0.2** - List of SNVs which show high correlation (minimum Linkage Disequilibrium coefficient of 0.2) with at least one other SNV within a sliding window of 250 SNVs on either side.
 * **LD_vals_0.2** - Corresponding highly-correlated SNVs - mapped line-wise to SNVs in **LD_keys_0.2**. This is what we call *N_LD(j)* in the paper.
 
-The code files included in this repository are as follows:
+The code files included in this repository are described below:
 
-*  
+* **mix_def_correl.py** - The SPG algorithm for the fixed threshold model, includes an evaluation when the correlations attack is carried out.
+* **mix_def_ada_correl.py** - The SPG algorithm for the adaptive threshold model, includes an evaluation when the correlations attack is carried out.
+* **mdfc_defense.py** - The SPG-LD algorithm for the fixed threshold model.
+* **mdac_defense.py** - The SPG-LD algorithm for the adaptive threshold model.
