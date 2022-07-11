@@ -25,3 +25,8 @@ The code files included in this repository are described below:
 * **mix_def_ada_correl.py** - The SPG algorithm for the adaptive threshold model, includes an evaluation when the correlations attack is carried out.
 * **mdfc_defense.py** - The SPG-LD algorithm for the fixed threshold model.
 * **mdac_defense.py** - The SPG-LD algorithm for the adaptive threshold model.
+
+-------------------------------
+
+Rajagopal (Raj) Venkatesaramani
+Email: rajagopal@wustl.edu
