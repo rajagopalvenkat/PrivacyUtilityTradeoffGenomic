@@ -1,5 +1,5 @@
 # GenomicBeacons_SoftPrivacy
-#### Enabling Trade-offs in Privacy and Utility When Sharing Genomic Data in Beacon Services
+#### Enabling Trade-offs in Privacy and Utility in Genomic Data Beacons and Summary Statistics
 ###### Authors: Rajagopal Venkatesaramani, Zhiyu Wan, Bradley A. Malin, Yevgeniy Vorobeychik
 
 This project was implemented in Python version 3.5.6, and the following packages are dependencies:
@@ -21,10 +21,12 @@ The data files included in the repository are as follows:
 
 The code files included in this repository are described below:
 
-* **mix_def_correl.py** - The SPG algorithm for the fixed threshold model, includes an evaluation when the correlations attack is carried out.
-* **mix_def_ada_correl.py** - The SPG algorithm for the adaptive threshold model, includes an evaluation when the correlations attack is carried out.
+* **SPG_B_fix_correl.py** - The SPG-B algorithm for the fixed threshold model, includes an evaluation when the correlations attack is carried out.
+* **SPG_B_ada_correl.py** - The SPG-B algorithm for the adaptive threshold model, includes an evaluation when the correlations attack is carried out.
 * **mdfc_defense.py** - The SPG-LD algorithm for the fixed threshold model.
 * **mdac_defense.py** - The SPG-LD algorithm for the adaptive threshold model.
+* **SPG_R_fix.py** - The SPG-R algorithm for the fixed threshold model.
+* **SPG_R_ada.py** - The SPG-R algorithm for the adaptive threshold model.
 
 -------------------------------
 
