@@ -1,4 +1,4 @@
-# GenomicBeacons_SoftPrivacy
+# PrivacyUtilityTradeoffGenomic
 #### Enabling Trade-offs in Privacy and Utility in Genomic Data Beacons and Summary Statistics
 ###### Authors: Rajagopal Venkatesaramani, Zhiyu Wan, Bradley A. Malin, Yevgeniy Vorobeychik
 
